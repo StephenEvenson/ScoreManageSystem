@@ -1,11 +1,11 @@
-package Relo;
+package Role;
 
-public class Student {
+public class Teacher {
     private String name;
     private String number;
     private String secret;
 
-    public Student(String name, String number, String secret) {
+    public Teacher(String name, String number, String secret) {
         this.name = name;
         this.number = number;
         this.secret = secret;

@@ -1,11 +1,13 @@
-package Relo;
+package Role;
 
-public class Admin {
+public class Student {
     private String name;
+    private String number;
     private String secret;
 
-    public Admin(String name, String secret) {
+    public Student(String name, String number, String secret) {
         this.name = name;
+        this.number = number;
         this.secret = secret;
     }
 
@@ -15,6 +17,14 @@ public class Admin {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public String getSecret() {
